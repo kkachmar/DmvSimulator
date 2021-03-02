@@ -23,7 +23,7 @@ public class DmvSimulator {
             System.out.println("Now helping number: "+number);
 
         }
-        System.out.println("You do not have the required paperwork. GOODBYE.");
+        System.out.println("You clearly do not have the neccessary requirements to be here, don't come back without them.");
 
         System.exit(0);
 
