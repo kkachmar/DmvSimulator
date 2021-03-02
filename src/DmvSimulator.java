@@ -23,8 +23,13 @@ public class DmvSimulator {
             System.out.println("Now helping number: "+number);
 
         }
-        System.out.println("You clearly do not have the neccessary requirements to be here, don't come back without them. HAHA");
 
+        int magicNumber = (int)(Math.Random()*100);
+        if(number != magicNumber) {
+            System.out.println("You clearly do not have the neccessary requirements to be here, don't come back without them. HAHA");
+        } else {
+            System.out.println("You are all set! Thanks for bringing the necessary paperwork.");
+        }
         System.exit(0);
 
 
