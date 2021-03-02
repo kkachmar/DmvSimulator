@@ -26,7 +26,7 @@ public class DmvSimulator {
 
         int magicNumber = (int)(Math.Random()*100);
         if(number != magicNumber) {
-            System.out.println("You do not have the required paperwork. GOODBYE.");
+            System.out.println("You clearly do not have the neccessary requirements to be here, don't come back without them. HAHA");
         } else {
             System.out.println("You are all set! Thanks for bringing the necessary paperwork.");
         }
